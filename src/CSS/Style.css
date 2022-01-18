@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("D:/Web Development/gradie-sign-up/src/GradieSignUpSourceFile2/Assets/Background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 10vh auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    margin: 0;
+  }
+}
+
+.container .left-col, .container .right-col {
+  width: 443px;
+  height: 552px;
+}
+
+@media (max-width: 414px) {
+  .container .left-col, .container .right-col {
+    width: 100%;
+  }
+}
+
+.container .left-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: #013243;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container .left-col {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .container .left-col {
+    border-radius: 0;
+  }
+}
+
+.container .left-col h1 {
+  position: absolute;
+  top: 8%;
+  color: white;
+}
+
+.container .left-col p {
+  position: absolute;
+  top: 16%;
+  color: #86BFD3;
+  font-size: 1.125rem;
+}
+
+.container .left-col img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.container .right-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px solid #BCBCBC;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container .right-col {
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .container .right-col {
+    border-radius: 0;
+  }
+}
+
+.container .right-col div, .container .right-col button, .container .right-col h1 {
+  width: 75%;
+}
+
+.container .right-col h1 {
+  font-size: 2.25rem;
+}
+
+.container .right-col h3 {
+  margin-bottom: 0.5rem;
+}
+
+.container .right-col input[type="text"], .container .right-col button {
+  height: 3.75rem;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+}
+
+.container .right-col input[type="text"] {
+  width: 100%;
+}
+
+.container .right-col .terms-container {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .right-col .terms-container input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.container .right-col .terms-container p {
+  width: 100%;
+  margin-left: 1rem;
+  font-size: 1.125rem;
+}
+
+.container .right-col .terms-container p a {
+  color: #013243;
+  font-weight: 700;
+}
+
+.container .right-col button {
+  background: #013243;
+  border: none;
+  color: white;
+}
+
+.container .right-col button:hover {
+  background: #012632;
+}
+/*# sourceMappingURL=Style.css.map */
