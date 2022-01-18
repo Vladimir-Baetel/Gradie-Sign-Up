@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gradie-Sign-Up/static/css/main.5e02c398.css",
+    "main.js": "/Gradie-Sign-Up/static/js/main.f3bb74d6.js",
+    "static/media/Background.png": "/Gradie-Sign-Up/static/media/Background.95dd4e245e63fda26481.png",
+    "static/media/iPhone Mockup.png": "/Gradie-Sign-Up/static/media/iPhone Mockup.dd070d943f22fb8129e1.png",
+    "index.html": "/Gradie-Sign-Up/index.html",
+    "main.5e02c398.css.map": "/Gradie-Sign-Up/static/css/main.5e02c398.css.map",
+    "main.f3bb74d6.js.map": "/Gradie-Sign-Up/static/js/main.f3bb74d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e02c398.css",
+    "static/js/main.f3bb74d6.js"
+  ]
+}
